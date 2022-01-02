@@ -1,0 +1,57 @@
+baseURL: 'https://hamzael9.github.io/'
+theme: "color-your-world"
+languageCode: 'en-us'
+copyright: "Copyright © 2022, Hamza El.; All rights reserved."
+rssLimit: 20
+title: "Hamza El."
+
+author:
+  - name: "Hamza El."
+  - email: "watercraft_apuls@slmail.me"
+
+enableEmoji: true
+enableInlineShortcodes: true
+publishDir: "docs"
+params:
+  footerText:
+    - "Copyright © 2022, Hamza El.; All rights reserved."
+    - "Generated with [Hugo](https://gohugo.io) using the [Color Your World](https://gitlab.com/rmaguiar/hugo-theme-color-your-world) theme."
+  imgPath: "img"
+  style:
+    ignoreSystemSettings: true
+    isDark: true
+  notFound:
+    title: "Page not found"
+    description: "This page was not found"
+    paragraph: "Nothing to see here, buddy."
+  social:
+    centralized:
+      github:
+        - "hamzael9"
+    decentralized:
+      matrix:
+menu:
+  main:
+    - identifier: 'about'
+      name: 'about'
+      url: '/'
+    - identifier: 'posts'
+      name: 'posts'
+      url: 'posts/'
+    - identifier: 'contact'
+      name: 'contact'
+      url: 'contact/'
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
